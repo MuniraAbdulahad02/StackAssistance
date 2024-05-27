@@ -115,6 +115,18 @@ window.addEventListener('keydown', function (event) {
   }
 });
 
+// buttons on screen 
+document.getElementById('leftButton').addEventListener('click', function () {
+  if (robotState === 0) {
+    robotState = 1;
+  }
+});
+document.getElementById('rightButton').addEventListener('click', function () {
+  if (robotState === 0) {
+    robotState = 2;
+  }
+});
+
 // initialise variable
 let ammountRotated = 0;
 
