@@ -22,4 +22,4 @@ On-Screen Buttons:
 The project is organized as follows:
 - index.html: The main HTML file that sets up the canvas and includes the Three.js library.
 - style.css: The CSS file for styling the on-screen buttons and layout.
-- script.js: The main JavaScript file containing the Three.js code for the robot arm animation and control logic.
+- main.js: The main JavaScript file containing the Three.js code for the robot arm animation and control logic.
